@@ -135,7 +135,7 @@ models:
         name: "published-on"
         required: false
         description: ""
-  tags:
+  tag:
     type: "page"
     label: "Tags"
     folder: "tags"
