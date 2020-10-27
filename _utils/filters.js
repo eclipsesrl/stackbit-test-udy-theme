@@ -76,7 +76,7 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
               rawItems.forEach(item => {
                 const a = getProperty(item.data, field.fieldPath, undefined);
                 if (a) {
-                  const index = ("/" + a);
+                  const index = ("/" + a).replace('.md', '');
                   if (!newCollections[index]) {
                     newCollections[index] = []
                   }
@@ -177,7 +177,7 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
             rawItems.forEach(item => {
               const a = getProperty(item.data, field.fieldPath, undefined);
               if (a) {
-                const index = ("/" + a);
+                const index = ("/" + a).replace('.md', '');
                 if (!newCollections[index]) {
                   newCollections[index] = []
                 }
