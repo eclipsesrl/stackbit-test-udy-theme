@@ -12,7 +12,7 @@
     "alt": ""
   },
   "published-on": "2018-07-13T19:31:13.347Z",
-  "tags": "team-members",
+  "tags": "team_members",
   "layout": "single-team-members.html"
 }
 ---

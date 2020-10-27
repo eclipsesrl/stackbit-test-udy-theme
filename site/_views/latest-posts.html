@@ -53,12 +53,12 @@
         {%- assign collectionId = "main" -%}{%- assign collection = collections["c_6f214f93c5dd13fcf269802fb2ea2a84"][collectionId] -%}<div class="posts-collection-list-wrapper w-dyn-list">
           {%- if collection.length > 0 -%}<div role="list" class="posts-collection-list w-dyn-items w-row">
             {%- for item in collection -%}<div role="listitem" class="_3-collection-item w-dyn-item w-col w-col-4"><a href="{{ item.url }}" class="posts-image w-inline-block"><img src="{{ item.data['article-image'].url }}" alt=""></a>
-              <div class="post-info-text">{%- assign ref = item | resolveReference: "category-5", "category" -%}{%- assign ref = item | resolveReference: "category-5", "category" -%}<a href="{{ ref.url }}" class="category-link">{{ ref.data.name }}</a>
+              <div class="post-info-text">{%- assign ref = item | resolveReference: "category_5", "category" -%}{%- assign ref = item | resolveReference: "category_5", "category" -%}<a href="{{ ref.url }}" class="category-link">{{ ref.data.name }}</a>
                 <a href="{{ item.url }}" class="post-title w-inline-block">
                   <h3 class="h3">{{ item.data.title }}</h3>
                 </a>
                 <div class="post-author-text cc-small-thumbnail">
-                  <div class="post-author cc-top-margin">By</div>{%- assign ref = item | resolveReference: "author-4", "team-members" -%}{%- assign ref = item | resolveReference: "author-4", "team-members" -%}<a href="{{ ref.url }}" class="post-author">{{ ref.data.name }}</a></div>
+                  <div class="post-author cc-top-margin">By</div>{%- assign ref = item | resolveReference: "author_4", "team-members" -%}{%- assign ref = item | resolveReference: "author_4", "team-members" -%}<a href="{{ ref.url }}" class="post-author">{{ ref.data.name }}</a></div>
               </div>
             </div>{%- endfor -%}
           </div>{%- endif -%}
