@@ -11,9 +11,13 @@ metadata:
 models:
   category:
     type: "page"
+    label: "Categories"
   posts:
     type: "page"
+    label: "Posts"
   tag:
     type: "page"
+    label: "Tags"
   team_members:
     type: "page"
+    label: "Team Members"
