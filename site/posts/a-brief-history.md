@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7884212c211_image_large.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-12T10:07:53.190Z",
-  "category-5": "category/graphic-design.md",
-  "name": "A Brief History of the FIFA World Cup Logo",
-  "slug": "a-brief-history",
-  "text": "Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum.",
-  "updated-on": "2018-08-24T19:22:20.750Z",
-  "author-4": "team-members/nels-armstrong.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "A Brief History of the FIFA World Cup Logo",
-  "published-on": "2018-08-24T19:22:31.653Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7884212c211_image_large.jpg"
+  alt: ""
+created-on: "2018-07-12T10:07:53.190Z"
+category-5: "category/graphic-design.md"
+name: "A Brief History of the FIFA World Cup Logo"
+slug: "a-brief-history"
+text: "Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum."
+updated-on: "2018-08-24T19:22:20.750Z"
+author-4: "team-members/nels-armstrong.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "A Brief History of the FIFA World Cup Logo"
+published-on: "2018-08-24T19:22:31.653Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.
