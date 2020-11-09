@@ -12,12 +12,16 @@ models:
   category:
     type: "page"
     label: "Categories"
+    urlPath: "/category/{slug}"
   posts:
     type: "page"
     label: "Posts"
+    urlPath: "/posts/{slug}"
   tag:
     type: "page"
     label: "Tags"
+    urlPath: "/tags/{slug}"
   team_members:
     type: "page"
     label: "Team Members"
+    urlPath: "/team-members/{slug}"

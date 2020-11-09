@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
       eleventyConfig.addCollection(collectionId + "_paged", function (collectionApi) {
 
         const newCollections = {}
-
+        
         let items = collectionApi.getFilteredByTag(collection.collection);
 
         let limit = 0;
@@ -44,10 +44,15 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
         if (collection.query && collection.query.fields) {
           for (let field of collection.query.fields) {
             const rawItems = items;
-            if (!field.value.includes("DYN_CONTEXT")) {
+            if (!(field.value + "").includes("DYN_CONTEXT")) {
               items = items.filter(item => {
                 const value = getProperty(item.data, field.fieldPath, "");
                 try {
+                  if (field.value == "true") {
+                    field.value = true;
+                  } else if (field.value == "false") {
+                    field.value = false;
+                  }
                   switch (field.operatorName) {
                     case "eq":
                       return value == field.value;
@@ -65,6 +70,12 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
                       return value.includes(field.value);
                     case "nin": case "nidin":
                       return !value.includes(field.value);
+                    case "exists":
+                      if (field.value = "yes") {
+                        return !!value;
+                      } else {
+                        return !(!!value);
+                      }
                   }
                 } catch (e) {
                   return false;
@@ -73,9 +84,26 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
               });
             } else {
 
-              rawItems.forEach(item => {
-                const a = getProperty(item.data, field.fieldPath, undefined);
+              items.forEach(item => {
+                let a = getProperty(item.data, field.fieldPath, getProperty(item.data, "slug", undefined));
+                
                 if (a) {
+                  if (!a.includes("/")) {
+                    const s = a;
+                    a = collection.collection + "/" + a;
+                    const index = ("/" + a).replace('.md', '') + "_ne";
+                    if (field.operatorName == "ne") {
+                      items.forEach(item => {
+                        const itemS = getProperty(item.data, "slug", undefined);
+                        if (itemS !== s) {
+                          if (!newCollections[index]) {
+                            newCollections[index] = []
+                          }
+                          newCollections[index].push(item);
+                        }
+                      })
+                    }
+                  }
                   const index = ("/" + a).replace('.md', '');
                   if (!newCollections[index]) {
                     newCollections[index] = []
@@ -129,8 +157,8 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
     eleventyConfig.addCollection(collectionId, function (collectionApi) {
 
       const newCollections = {}
-
       let items = collectionApi.getFilteredByTag(collection.collection);
+
 
       let limit = 0;
 
@@ -143,12 +171,19 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
       }
 
       if (collection.query && collection.query.fields) {
+        const rawItems = items;
         for (let field of collection.query.fields) {
-          const rawItems = items;
-          if (!field.value.includes("DYN_CONTEXT")) {
+          
+          console.log(field);
+          if (!(field.value + "").includes("DYN_CONTEXT")) {
             items = items.filter(item => {
               let value = getProperty(item.data, field.fieldPath, "");
               try {
+                if (field.value == "true") {
+                  field.value = true;
+                } else if (field.value == "false") {
+                  field.value = false;
+                }
                 switch (field.operatorName) {
                   case "eq":
                     return value == field.value;
@@ -166,6 +201,12 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
                     return value.includes(field.value);
                   case "nin": case "nidin":
                     return !value.includes(field.value);
+                  case "exists":
+                    if (field.value = "yes") {
+                      return !!value;
+                    } else {
+                      return !(!!value);
+                    }
                 }
               } catch (e) {
                 return false;
@@ -173,10 +214,26 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
               return false;
             });
           } else {
-
-            rawItems.forEach(item => {
-              const a = getProperty(item.data, field.fieldPath, undefined);
+            items.forEach(item => {
+              let a = getProperty(item.data, field.fieldPath, getProperty(item.data, "slug", undefined));
+              
               if (a) {
+                if (!a.includes("/")) {
+                  const s = a;
+                  a = collection.collection + "/" + a;
+                  const index = ("/" + a).replace('.md', '') + "_ne";
+                  if (field.operatorName == "ne") {
+                    items.forEach(item => {
+                      const itemS = getProperty(item.data, "slug", undefined);
+                      if (itemS !== s) {
+                        if (!newCollections[index]) {
+                          newCollections[index] = []
+                        }
+                        newCollections[index].push(item);
+                      }
+                    })
+                  }
+                }
                 const index = ("/" + a).replace('.md', '');
                 if (!newCollections[index]) {
                   newCollections[index] = []
@@ -218,12 +275,16 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
 
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     if (outputPath.endsWith(".html")) {
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
-      });
-      return minified;
+      try {
+        let minified = htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true
+        });
+        return minified;
+      } catch(e) {
+        return content;
+      }
     }
 
     return content;

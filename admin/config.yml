@@ -8,6 +8,7 @@ collections:
   - name: "pages"
     label: "Pages"
     folder: "site/pages"
+    identifier_field: "name"
     create: false
     delete: false
     slug: "{{slug}}"
@@ -27,6 +28,7 @@ collections:
       - label: "Seo"
         name: "seo"
         widget: "object"
+        collapsed: true
         fields:
           - label: "Title"
             name: "title"
@@ -64,6 +66,7 @@ collections:
     label: "Categories"
     folder: "site/category"
     create: true
+    identifier_field: "name"
     slug: "{{slug}}"
     editor:
       preview: false
@@ -82,6 +85,7 @@ collections:
       - label: "Seo"
         name: "seo"
         widget: "object"
+        collapsed: true
         fields:
           - label: "Title"
             name: "title"
@@ -135,6 +139,7 @@ collections:
     label: "Posts"
     folder: "site/posts"
     create: true
+    identifier_field: "name"
     slug: "{{slug}}"
     editor:
       preview: false
@@ -153,6 +158,7 @@ collections:
       - label: "Seo"
         name: "seo"
         widget: "object"
+        collapsed: true
         fields:
           - label: "Title"
             name: "title"
@@ -226,26 +232,35 @@ collections:
         required: false
       - widget: "relation"
         collection: "team_members"
-        value_field: "{{slug}}"
+        value_field: "team_members/{{slug}}.md"
         search_fields:
           - "slug"
           - "name"
+        display_fields:
+          - "name"
         required: true
+        name: "author-4"
       - widget: "relation"
         collection: "category"
-        value_field: "{{slug}}"
+        value_field: "category/{{slug}}.md"
         search_fields:
           - "slug"
           - "name"
+        display_fields:
+          - "name"
         required: true
+        name: "category-5"
       - widget: "relation"
         collection: "tag"
-        value_field: "{{slug}}"
+        value_field: "category/{{slug}}.md"
         search_fields:
           - "slug"
+          - "name"
+        display_fields:
           - "name"
         required: false
         multiple: true
+        name: "tag"
       - name: "name"
         label: "Name"
         widget: "string"
@@ -266,6 +281,7 @@ collections:
     label: "Tags"
     folder: "site/tags"
     create: true
+    identifier_field: "name"
     slug: "{{slug}}"
     editor:
       preview: false
@@ -284,6 +300,7 @@ collections:
       - label: "Seo"
         name: "seo"
         widget: "object"
+        collapsed: true
         fields:
           - label: "Title"
             name: "title"
@@ -337,6 +354,7 @@ collections:
     label: "Team Members"
     folder: "site/team-members"
     create: true
+    identifier_field: "name"
     slug: "{{slug}}"
     editor:
       preview: false
@@ -355,6 +373,7 @@ collections:
       - label: "Seo"
         name: "seo"
         widget: "object"
+        collapsed: true
         fields:
           - label: "Title"
             name: "title"
