@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7370012c216_image-5.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-12T10:47:12.518Z",
-  "category-5": "category/animation.md",
-  "name": "New platform Holdframe offers animators’ full project files for others to download and explore",
-  "slug": "new-platform-holdframe",
-  "text": "Eum te vocent corpora invidunt, id doming numquam delenit vix.",
-  "updated-on": "2018-08-24T19:36:46.021Z",
-  "author-4": "team-members/simeon-brekke.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "New platform Holdframe offers animators’ full project files for others to download and explore",
-  "published-on": "2018-08-24T19:53:00.651Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7370012c216_image-5.jpg"
+  alt: ""
+created-on: "2018-07-12T10:47:12.518Z"
+category-5: "category/animation.md"
+name: "New platform Holdframe offers animators’ full project files for others to download and explore"
+slug: "new-platform-holdframe"
+text: "Eum te vocent corpora invidunt, id doming numquam delenit vix."
+updated-on: "2018-08-24T19:36:46.021Z"
+author-4: "team-members/simeon-brekke.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "New platform Holdframe offers animators’ full project files for others to download and explore"
+published-on: "2018-08-24T19:53:00.651Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.

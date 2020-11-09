@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b70d0212c233_image-15.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-13T17:48:38.581Z",
-  "category-5": "category/illustration.md",
-  "name": "Japan House opens in mountainside to foster peak creativity. ",
-  "slug": "japan-house-opens",
-  "text": "Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu.",
-  "updated-on": "2018-09-24T18:51:47.924Z",
-  "author-4": "team-members/reta-torphy.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "Japan House opens in mountainside to foster peak creativity. ",
-  "published-on": "2018-09-24T18:55:42.458Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b70d0212c233_image-15.jpg"
+  alt: ""
+created-on: "2018-07-13T17:48:38.581Z"
+category-5: "category/illustration.md"
+name: "Japan House opens in mountainside to foster peak creativity. "
+slug: "japan-house-opens"
+text: "Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu."
+updated-on: "2018-09-24T18:51:47.924Z"
+author-4: "team-members/reta-torphy.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "Japan House opens in mountainside to foster peak creativity. "
+published-on: "2018-09-24T18:55:42.458Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.

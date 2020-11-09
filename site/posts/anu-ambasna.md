@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7910512c225_image-8.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-13T16:34:39.586Z",
-  "category-5": "category/graphic-design.md",
-  "name": "Anu Ambasna’s playful illustrations celebrate club culture, brown bodies and perfect paunches",
-  "slug": "anu-ambasna",
-  "text": "Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu.",
-  "updated-on": "2018-08-24T19:20:22.848Z",
-  "author-4": "team-members/leopoldo-bartell.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "Anu Ambasna’s playful illustrations celebrate club culture, brown bodies and perfect paunches",
-  "published-on": "2018-08-24T19:22:31.653Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7910512c225_image-8.jpg"
+  alt: ""
+created-on: "2018-07-13T16:34:39.586Z"
+category-5: "category/graphic-design.md"
+name: "Anu Ambasna’s playful illustrations celebrate club culture, brown bodies and perfect paunches"
+slug: "anu-ambasna"
+text: "Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu."
+updated-on: "2018-08-24T19:20:22.848Z"
+author-4: "team-members/leopoldo-bartell.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "Anu Ambasna’s playful illustrations celebrate club culture, brown bodies and perfect paunches"
+published-on: "2018-08-24T19:22:31.653Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.

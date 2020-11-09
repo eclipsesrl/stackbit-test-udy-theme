@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7084012c229_image-10.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-13T17:15:51.844Z",
-  "category-5": "category/graphic-design.md",
-  "name": "Anonymous Israeli art collective Broken Fingaz direct music video for U2 and Beck",
-  "slug": "anonymous-israeli-art-collective",
-  "text": "Lorem ipsum dolor sit amet",
-  "updated-on": "2018-08-24T19:19:51.241Z",
-  "author-4": "team-members/simeon-brekke.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "Anonymous Israeli art collective Broken Fingaz direct music video for U2 and Beck",
-  "published-on": "2018-08-24T19:22:31.653Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7084012c229_image-10.jpg"
+  alt: ""
+created-on: "2018-07-13T17:15:51.844Z"
+category-5: "category/graphic-design.md"
+name: "Anonymous Israeli art collective Broken Fingaz direct music video for U2 and Beck"
+slug: "anonymous-israeli-art-collective"
+text: "Lorem ipsum dolor sit amet"
+updated-on: "2018-08-24T19:19:51.241Z"
+author-4: "team-members/simeon-brekke.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "Anonymous Israeli art collective Broken Fingaz direct music video for U2 and Beck"
+published-on: "2018-08-24T19:22:31.653Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.

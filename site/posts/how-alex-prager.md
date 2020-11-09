@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b75ace12c217_image-6.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-12T10:47:52.089Z",
-  "category-5": "category/interactive-design.md",
-  "name": "How Alex Prager made the world stop and stare",
-  "slug": "how-alex-prager",
-  "text": "Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu.",
-  "updated-on": "2018-08-24T19:20:54.859Z",
-  "author-4": "team-members/misty-legros.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "How Alex Prager made the world stop and stare",
-  "published-on": "2018-08-24T19:22:31.653Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b75ace12c217_image-6.jpg"
+  alt: ""
+created-on: "2018-07-12T10:47:52.089Z"
+category-5: "category/interactive-design.md"
+name: "How Alex Prager made the world stop and stare"
+slug: "how-alex-prager"
+text: "Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu."
+updated-on: "2018-08-24T19:20:54.859Z"
+author-4: "team-members/misty-legros.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "How Alex Prager made the world stop and stare"
+published-on: "2018-08-24T19:22:31.653Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.

@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7e01112c212_image-1.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-12T10:28:25.334Z",
-  "category-5": "category/graphic-design.md",
-  "name": "Need a guide to LA’s graphic design scene? Shoplifters’ new issue has got your back",
-  "slug": "la-design-guide",
-  "text": "Nec albucius vivendum argumentum id, periculis efficiantur nec an, facilis nominavi pertinacia nam ad.",
-  "updated-on": "2018-08-24T19:22:06.385Z",
-  "author-4": "team-members/alessandra-ortiz.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "Need a guide to LA’s graphic design scene? Shoplifters’ new issue has got your back",
-  "published-on": "2018-08-24T19:22:31.653Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7e01112c212_image-1.jpg"
+  alt: ""
+created-on: "2018-07-12T10:28:25.334Z"
+category-5: "category/graphic-design.md"
+name: "Need a guide to LA’s graphic design scene? Shoplifters’ new issue has got your back"
+slug: "la-design-guide"
+text: "Nec albucius vivendum argumentum id, periculis efficiantur nec an, facilis nominavi pertinacia nam ad."
+updated-on: "2018-08-24T19:22:06.385Z"
+author-4: "team-members/alessandra-ortiz.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "Need a guide to LA’s graphic design scene? Shoplifters’ new issue has got your back"
+published-on: "2018-08-24T19:22:31.653Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.

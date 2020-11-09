@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b784a812c215_image-4.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-12T10:46:23.151Z",
-  "category-5": "category/miscellaneous.md",
-  "name": "No balls, all books: it’s July Things!",
-  "slug": "july-things",
-  "text": "An tale novum vis, vel an augue nulla sanctus, perpetua salutandi eum ut. Ei case porro choro sed, ea nibh brute pri. Nobis platonem et vim.",
-  "updated-on": "2018-08-24T19:21:24.593Z",
-  "author-4": "team-members/rosanna-ondricka.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "No balls, all books: it’s July Things!",
-  "published-on": "2018-08-24T19:22:31.653Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b784a812c215_image-4.jpg"
+  alt: ""
+created-on: "2018-07-12T10:46:23.151Z"
+category-5: "category/miscellaneous.md"
+name: "No balls, all books: it’s July Things!"
+slug: "july-things"
+text: "An tale novum vis, vel an augue nulla sanctus, perpetua salutandi eum ut. Ei case porro choro sed, ea nibh brute pri. Nobis platonem et vim."
+updated-on: "2018-08-24T19:21:24.593Z"
+author-4: "team-members/rosanna-ondricka.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "No balls, all books: it’s July Things!"
+published-on: "2018-08-24T19:22:31.653Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.

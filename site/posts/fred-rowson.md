@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b71b4512c213_image-2.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-12T10:28:58.009Z",
-  "category-5": "category/photography.md",
-  "name": "Fred Rowson directs film for Years and Years",
-  "slug": "fred-rowson",
-  "text": "Lorem ipsum dolor sit In nominati gloriatur qui, pro te erat liber sententiae. An nec prima eligendi suavitate, nihil veniam ea sit.",
-  "updated-on": "2018-08-24T19:21:48.687Z",
-  "author-4": "team-members/coby-gottlieb.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "Fred Rowson directs film for Years and Years",
-  "published-on": "2018-08-24T19:22:31.653Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b71b4512c213_image-2.jpg"
+  alt: ""
+created-on: "2018-07-12T10:28:58.009Z"
+category-5: "category/photography.md"
+name: "Fred Rowson directs film for Years and Years"
+slug: "fred-rowson"
+text: "Lorem ipsum dolor sit In nominati gloriatur qui, pro te erat liber sententiae. An nec prima eligendi suavitate, nihil veniam ea sit."
+updated-on: "2018-08-24T19:21:48.687Z"
+author-4: "team-members/coby-gottlieb.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "Fred Rowson directs film for Years and Years"
+published-on: "2018-08-24T19:22:31.653Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.

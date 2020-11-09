@@ -1,27 +1,23 @@
----json
-{
-  "_archived": false,
-  "_draft": false,
-  "article-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7141812c22f_image-13.jpg",
-    "alt": ""
-  },
-  "created-on": "2018-07-13T17:44:49.668Z",
-  "category-5": "category/photography.md",
-  "name": "Bowlcut launch a new summer collection that pays homage to “UK legends”",
-  "slug": "bowlcut-launch-a-new-summer-collection",
-  "text": "Lorem ipsum dolor sit amet",
-  "updated-on": "2018-08-24T19:16:04.616Z",
-  "author-4": "team-members/rosanna-ondricka.md",
-  "article-header-image": {
-    "url": "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg",
-    "alt": ""
-  },
-  "title": "Bowlcut launch a new summer collection that pays homage to “UK legends”",
-  "published-on": "2018-08-24T19:22:31.653Z",
-  "tags": "posts",
-  "layout": "single-posts.html"
-}
+---
+_archived: false
+_draft: false
+article-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b7141812c22f_image-13.jpg"
+  alt: ""
+created-on: "2018-07-13T17:44:49.668Z"
+category-5: "category/photography.md"
+name: "Bowlcut launch a new summer collection that pays homage to “UK legends”"
+slug: "bowlcut-launch-a-new-summer-collection"
+text: "Lorem ipsum dolor sit amet"
+updated-on: "2018-08-24T19:16:04.616Z"
+author-4: "team-members/rosanna-ondricka.md"
+article-header-image:
+  url: "https://uploads-ssl.webflow.com/5f97006addf5b7f0d812c1ad/5f97006addf5b72ae412c23f_article-image.jpg"
+  alt: ""
+title: "Bowlcut launch a new summer collection that pays homage to “UK legends”"
+published-on: "2018-08-24T19:22:31.653Z"
+tags: "posts"
+layout: "single-posts.html"
 ---
 
 Ea iudico labore deserunt mei, pro ad dicant forensibus dissentiunt, mel id hendrerit incorrupte. Viris laudem malorum an eum, cu quo elit albucius corrumpit. Inani mollis pericula an nec. Modo brute liber ea qui, aeque cetero duo ei.
