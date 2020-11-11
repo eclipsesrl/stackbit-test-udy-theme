@@ -16,7 +16,7 @@ const memoize = (collection) => {
         const [type, slug] = item.filePathStem.split('/').filter(e => !!e);
 
         if (!memo[type]) {
-            memo[type] = {}
+            memo[type] = {};
         }
 
         memo[type][slug] = item;
