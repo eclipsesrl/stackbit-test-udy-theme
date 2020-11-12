@@ -8,7 +8,8 @@ collections:
   - name: "pages"
     label: "Pages"
     folder: "site/pages"
-    identifier_field: "name"
+    identifier_field: "title"
+    extension: "md"
     create: false
     delete: false
     slug: "{{slug}}"
@@ -67,6 +68,7 @@ collections:
     folder: "site/category"
     create: true
     identifier_field: "name"
+    extension: "md"
     slug: "{{slug}}"
     editor:
       preview: false
@@ -140,6 +142,7 @@ collections:
     folder: "site/posts"
     create: true
     identifier_field: "name"
+    extension: "md"
     slug: "{{slug}}"
     editor:
       preview: false
@@ -232,7 +235,7 @@ collections:
         required: false
       - widget: "relation"
         collection: "team_members"
-        value_field: "team_members/{{slug}}.md"
+        value_field: "site/team-members/{{slug}}.md"
         search_fields:
           - "slug"
           - "name"
@@ -242,7 +245,7 @@ collections:
         name: "author-4"
       - widget: "relation"
         collection: "category"
-        value_field: "category/{{slug}}.md"
+        value_field: "site/category/{{slug}}.md"
         search_fields:
           - "slug"
           - "name"
@@ -252,7 +255,7 @@ collections:
         name: "category-5"
       - widget: "relation"
         collection: "tag"
-        value_field: "category/{{slug}}.md"
+        value_field: "site/category/{{slug}}.md"
         search_fields:
           - "slug"
           - "name"
@@ -355,6 +358,7 @@ collections:
     folder: "site/team-members"
     create: true
     identifier_field: "name"
+    extension: "md"
     slug: "{{slug}}"
     editor:
       preview: false

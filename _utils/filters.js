@@ -359,16 +359,15 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
   });
 
   eleventyConfig.addLiquidFilter('resolveReference', function (item, field, fieldType) {
-
-    const itemField = item.data[field]
+    const itemField = item.data[field];
     let ref = {};
     if (itemField) {
 
       if (typeof itemField == "string") {
 
-        let refSlug = itemField.includes('.md') ? itemField.split('/')[1].replace('.md', '') : itemField;
+        let refSlug = itemField.includes('.md') ? itemField.split('/')[2].replace('.md', '') : itemField;
         if (!fieldType) {
-          itemField.split('/')[0]
+          fieldType = itemField.split('/')[1];
         }
 
         ref = findBySlug(fieldType, refSlug);
@@ -376,18 +375,17 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
     }
 
     return ref;
-  })
+  });
 
   eleventyConfig.addLiquidFilter('resolveMultiReference', function (item, field, fieldType) {
-
-    const itemField = item.data[field]
+    const itemField = item.data[field];
     let ref = [];
     if (itemField && Array.isArray(itemField)) {
 
       ref = itemField.map(e => {
-        let refSlug = e.includes('.md') ? e.split('/')[1].replace('.md', '') : e;
+        let refSlug = e.includes('.md') ? e.split('/')[2].replace('.md', '') : e;
         if (!fieldType) {
-          e.split('/')[0]
+          fieldType = e.split('/')[1];
         }
         findBySlug(fieldType, refSlug);
       });
@@ -395,7 +393,7 @@ module.exports = function (eleventyConfig, ecommerceFormat, priceTemplate) {
     }
 
     return ref;
-  })
+  });
 
   eleventyConfig.addLiquidFilter('getBySlug', function (type, slug) {
     return findBySlug(type, slug);
